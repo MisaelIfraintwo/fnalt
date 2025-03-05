@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7724868271292063227}
   - component: {fileID: 7403684473066753462}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy normal
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -175,6 +175,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7010d82d8987a4b4dae364567af273ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healt: 2
-  maxHealt: 3
-  moveSpeed: 3
+  health: 0
+  maxHealth: 3
+  moveSpeed: 3.9
+  dropPrefabs:
+  - {fileID: 4245440946254608398, guid: ff999c22fcfd13e42985b19e27e385b0, type: 3}
+  - {fileID: 4245440946254608398, guid: f05f553e63b352c4c8d43cfa75d198ca, type: 3}
